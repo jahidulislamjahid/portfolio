@@ -1,13 +1,11 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import 'react-lazy-load-image-component/src/effects/blur.css';
-import JotformEmbed from 'react-jotform-embed';
 import emailjs from 'emailjs-com';
 
 import content from '../content';
 import useWindowPosition from '../hook/useWindowPosition';
 
 export default function Contact() {
-  const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -50,10 +48,6 @@ export default function Contact() {
 
             <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium p-2 rounded-lg text-sm w-full sm:w-auto px-5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" >Submit</button>
           </form>
-
-          {/* <label for="message" class="text-sm font-medium text-white block mb-2 text-white">Your message</label> */}
-
-          {/* <JotformEmbed src="https://form.jotform.com/213344781404452" /> */}
         </div>
         <div className="font-dosis w-4/5 md:w-2/5 mt-5 transtion duration-2000">
           <h1
