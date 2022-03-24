@@ -69,7 +69,7 @@ const ProjectDetail = () => {
         className={`${animated ? '' : 'translate-y-10 opacity-0'
           } transform transition duration-2000  px-20 py-3 m-4 bg-black flex justify-around text-white rounded-lg shadow-2xl`}
       >
-        <a href="https://time-tracer-c1237.web.app/" target="_new">
+        <a href="https://radiant-academy.vercel.app/" target="_new">
         <h5><i class="fas fa-rocket"></i> Website</h5>
         </a>
       </button>

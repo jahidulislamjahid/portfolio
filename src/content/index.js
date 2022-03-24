@@ -21,12 +21,11 @@ export default {
   },
   work: {
     title: 'My Latest Projects',
-    img: process.env.PUBLIC_URL + '/assets/project.gif',
+    img: process.env.PUBLIC_URL + '/assets/radiant.gif',
 
-    projectName: 'Time Tracer',
+    projectName: 'Radiant Academy',
     desc:
-      `This is a website about selling all kind of wrist watches. The website promotes most of the well known watch brands like Rolex, Omega. Casio, Seiko and many other.It's a Demo Project. 
-      This is a full-stack project and the technologies used in this are React, React Router, React Private Route, React Hook, Admin Panel, MongoDB, NodeJS, ExpressJS, Firebase Auth, Firebase Hosting.`,
+      `This is a Team project where i was the Team Leader and I led a team of seven members and altogether built this production ready web app. Technologies used in this project are Next.Js, Tailwind Css, MongoDB, Vercel, Firebase, PayPal, Firebase Auth, Redux and many more.`,
   },
   stack: {
     title: 'Stack',
