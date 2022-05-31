@@ -24,7 +24,7 @@ export default function Header() {
           <LazyLoadImage
             src={content.header.img}
             alt="profile"
-            className={`w-full mx-auto`}
+            className={` w-full bg-gray-900 mx-auto rounded-full`}
             effect="blur"
             placeholderSrc={content.header.imgPlaceholder}
           />
