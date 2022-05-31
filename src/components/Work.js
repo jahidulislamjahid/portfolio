@@ -10,7 +10,7 @@ export default function Work() {
     <>
 
       <div
-        className="min-h-screen flex justify-center items-center flex-col"
+        className="my-10 flex justify-center items-center flex-col"
         style={{
           background: '#FEFEFE',
         }}

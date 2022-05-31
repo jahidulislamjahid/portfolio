@@ -7,7 +7,7 @@ export default {
     ],
   },
   header: {
-    img: '/assets/new.png',
+    img: '/assets/New.png',
     text: ['Hi!', "I'm jahidul islam.", 'A '],
     typical: [
       'web designer.',

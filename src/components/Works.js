@@ -3,7 +3,7 @@ import Carousel from 'nuka-carousel';
 const Works = () => {
     return (
         <div className=" grid md:grid-cols-4 sm:grid-cols-6 gap-3" id="mywork">
-            <div className="flex  w-full items-center dark:bg-gray-900 py-12 px-6 flex justify-center items-center ">
+            <div className=" w-full items-center dark:bg-gray-900 py-12 px-6 flex justify-center ">
                 <div>
                     <div className="max-w-xs  h-80 flex flex-col justify-between bg-white dark:bg-gray-800 rounded-lg border border-gray-400 mb-6 py-5 px-4">
                         <div className="w-50 h-auto">
@@ -38,7 +38,7 @@ const Works = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex  w-full items-center dark:bg-gray-900 py-12 px-6 flex justify-center items-center ">
+            <div className=" w-full dark:bg-gray-900 py-12 px-6 flex justify-center items-center ">
                 <div>
                     <div className="max-w-xs  h-80 flex flex-col justify-between bg-white dark:bg-gray-800 rounded-lg border border-gray-400 mb-6 py-5 px-4">
                         <div className="w-50 h-auto">
@@ -72,7 +72,7 @@ const Works = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex  w-full items-center dark:bg-gray-900 py-12 px-6 flex justify-center items-center ">
+            <div className="w-full items-center dark:bg-gray-900 py-12 px-6 flex justify-center ">
                 <div>
                     <div className="max-w-xs  h-80 flex flex-col justify-between bg-white dark:bg-gray-800 rounded-lg border border-gray-400 mb-6 py-5 px-4">
                         <div className="w-50 h-auto">
@@ -107,7 +107,7 @@ const Works = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex  w-full items-center dark:bg-gray-900 py-12 px-6 flex justify-center items-center ">
+            <div className=" w-full items-center dark:bg-gray-900 py-12 px-6 flex justify-center ">
                 <div>
                     <div className="max-w-xs  h-80 flex flex-col justify-between bg-white dark:bg-gray-800 rounded-lg border border-gray-400 mb-6 py-5 px-4">
                         <div className="w-50 h-auto">
@@ -141,7 +141,7 @@ const Works = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex  w-full items-center dark:bg-gray-900 py-12 px-6 flex justify-center items-center ">
+            <div className=" w-full dark:bg-gray-900 py-12 px-6 flex justify-center items-center ">
                 <div>
                     <div className="max-w-xs  h-80 flex flex-col justify-between bg-white dark:bg-gray-800 rounded-lg border border-gray-400 mb-6 py-5 px-4">
                         <div className="w-50 h-auto">

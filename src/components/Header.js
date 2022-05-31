@@ -16,15 +16,15 @@ export default function Header() {
       style={{
         background: '#091C29',
       }}
-      className="min-h-screen flex items-center justify-center"
+      className="flex items-center justify-center my-auto"
       id="header"
     >
       <div className="flex flex-col items-center justify-center md:flex-row-reverse md:w-10/12 md:justify-between">
-        <div className="w-full md:w-2/5 ">
+        <div className="w-full md:w-2/5 mt-10 ">
           <LazyLoadImage
             src={content.header.img}
             alt="profile"
-            className={` w-full bg-gray-900 mx-auto rounded-full`}
+            className={` w-full bg-gray-900 mx-auto rounded-full my-10`}
             effect="blur"
             placeholderSrc={content.header.imgPlaceholder}
           />

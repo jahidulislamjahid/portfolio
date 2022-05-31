@@ -7,7 +7,7 @@ import content from '../content';
 export default function Stack() {
   return (
     <div
-      className="min-h-screen flex items-center justify-center flex-col"
+      className="my-10 flex items-center justify-center flex-col"
       style={{
         background: '#eee',
       }}
