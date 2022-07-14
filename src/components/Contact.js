@@ -68,7 +68,7 @@ export default function Contact() {
           >
             <a className="text-white text-3xl mr-3" target="_new" href="https://www.facebook.com/zahidul.islam.10420"><i class="fab fa-facebook"> </i> </a>
             <a className="text-white text-3xl mr-3" target="_new" href="https://github.com/jahidulislamjahid"><i class="fab fa-github"> </i> </a>
-            <a className="text-white text-3xl mr-3" target="_new" href="https://www.linkedin.com/in/jahidul-islam-076a8b216"><i class="fab fa-linkedin"></i> </a>
+            <a className="text-white text-3xl mr-3" target="_new" href="https://www.linkedin.com/in/md-jahidul-islam-076a8b216/"><i class="fab fa-linkedin"></i> </a>
             <a className="text-white text-3xl mr-3 mb-3" target="_new" href="https://twitter.com/Zahidul15053004"><i class="fab fa-twitter"></i> </a>
           </div>
         </div>
