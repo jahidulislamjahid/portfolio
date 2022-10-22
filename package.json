@@ -11,6 +11,7 @@
     "nuka-carousel": "^4.8.3",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
+    "react-hot-toast": "^2.4.0",
     "react-jotform-embed": "^1.1.2",
     "react-lazy-load-image-component": "^1.5.0",
     "react-scripts": "3.4.3",

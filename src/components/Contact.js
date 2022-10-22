@@ -1,21 +1,27 @@
 import React from 'react';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import emailjs from 'emailjs-com';
-
+import toast, { Toaster } from 'react-hot-toast';
 import content from '../content';
 import useWindowPosition from '../hook/useWindowPosition';
 
 export default function Contact() {
+
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs.sendForm('service_ajf7q2h', 'template_wd91gej', e.target, 'user_HRoNB0POq01uSz2iMRTDq')
       .then((result) => {
         console.log(result.text);
+        toast.success("Thanks! I'll contact you soon.",{
+          position:"bottom-center",
+          duration: 5000,
+        });
       }, (error) => {
         console.log(error.text);
       });
     e.target.reset();
+    
   };
   const animated = useWindowPosition('header', 0.6, 4);
   return (
@@ -47,6 +53,7 @@ export default function Contact() {
             </div>
 
             <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium p-2 rounded-lg text-sm w-full sm:w-auto px-5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" >Submit</button>
+            <Toaster/>
           </form>
         </div>
         <div className="font-dosis w-4/5 md:w-2/5 mt-5 transtion duration-2000">
