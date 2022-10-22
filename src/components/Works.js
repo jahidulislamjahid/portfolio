@@ -1,11 +1,12 @@
 import React from 'react';
 import Carousel from 'nuka-carousel';
+import content from '../content';
 const Works = () => {
     return (
         <div className=" grid md:grid-cols-4 sm:grid-cols-6 gap-3" id="mywork">
             <div className=" w-full items-center dark:bg-gray-900 py-12 px-6 flex justify-center ">
                 <div>
-                    <div className="max-w-xs  h-80 flex flex-col justify-between bg-white dark:bg-gray-800 rounded-lg border border-gray-400 mb-6 py-5 px-4">
+                    <div className="max-w-xs  h-80 flex flex-col justify-between bg-white dark:bg-gray-800 rounded-lg border border-gray-400 mb-6 py-5 px-4 shadow-lg">
                         <div className="w-50 h-auto">
                             <Carousel autoplay={true} wrapAround={true}
                                 renderCenterLeftControls={({ previousSlide }) => (
@@ -40,7 +41,7 @@ const Works = () => {
             </div>
             <div className=" w-full dark:bg-gray-900 py-12 px-6 flex justify-center items-center ">
                 <div>
-                    <div className="max-w-xs  h-80 flex flex-col justify-between bg-white dark:bg-gray-800 rounded-lg border border-gray-400 mb-6 py-5 px-4">
+                    <div className="max-w-xs  h-80 flex flex-col justify-between bg-white dark:bg-gray-800 rounded-lg border border-gray-400 mb-6 py-5 px-4 shadow-lg">
                         <div className="w-50 h-auto">
                             <Carousel autoplay={true} wrapAround={true}
                                 renderCenterLeftControls={({ previousSlide }) => (
@@ -74,7 +75,7 @@ const Works = () => {
             </div>
             <div className="w-full items-center dark:bg-gray-900 py-12 px-6 flex justify-center ">
                 <div>
-                    <div className="max-w-xs  h-80 flex flex-col justify-between bg-white dark:bg-gray-800 rounded-lg border border-gray-400 mb-6 py-5 px-4">
+                    <div className="max-w-xs  h-80 flex flex-col justify-between bg-white dark:bg-gray-800 rounded-lg border border-gray-400 mb-6 py-5 px-4 shadow-lg">
                         <div className="w-50 h-auto">
                             <Carousel autoplay={true} wrapAround={true}
                                 renderCenterLeftControls={({ previousSlide }) => (
@@ -109,7 +110,7 @@ const Works = () => {
             </div>
             <div className=" w-full items-center dark:bg-gray-900 py-12 px-6 flex justify-center ">
                 <div>
-                    <div className="max-w-xs  h-80 flex flex-col justify-between bg-white dark:bg-gray-800 rounded-lg border border-gray-400 mb-6 py-5 px-4">
+                    <div className="max-w-xs  h-80 flex flex-col justify-between bg-white dark:bg-gray-800 rounded-lg border border-gray-400 mb-6 py-5 px-4 shadow-lg">
                         <div className="w-50 h-auto">
                             <Carousel autoplay={true} wrapAround={true}
                                 renderCenterLeftControls={({ previousSlide }) => (
@@ -143,7 +144,7 @@ const Works = () => {
             </div>
             <div className=" w-full dark:bg-gray-900 py-12 px-6 flex justify-center items-center ">
                 <div>
-                    <div className="max-w-xs  h-80 flex flex-col justify-between bg-white dark:bg-gray-800 rounded-lg border border-gray-400 mb-6 py-5 px-4">
+                    <div className="max-w-xs  h-80 flex flex-col justify-between bg-white dark:bg-gray-800 rounded-lg border border-gray-400 mb-6 py-5 px-4 shadow-lg">
                         <div className="w-50 h-auto">
                             <Carousel autoplay={true} wrapAround={true}
                                 renderCenterLeftControls={({ previousSlide }) => (
@@ -172,6 +173,26 @@ const Works = () => {
                                 <button className=" bg-blue-400 rounded px-5 text-white font-bold"><a href="https://a-sound-health-medical-h-da9e4.web.app/" target="_new">visit</a></button>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div className=" w-full dark:bg-gray-900 py-12 px-6 flex justify-center items-center">
+                <div>
+                    <div className="max-w-xs  h-80 flex flex-col justify-between bg-white dark:bg-gray-800 rounded-lg border border-gray-400 mb-6 py-5 px-4 shadow-lg">
+                        <div className="m-auto w-40">
+                            <img src={content.git.img}></img>
+                        </div>
+                        <div>
+                            <h3 className='font-bold text-center text-lg font-serif italic my-2'>{content.git.title}</h3>
+                            <p className="text-gray-800 dark:text-gray-100 text-sm font-semibold italic">{content.git.desc}</p>
+                        </div>
+                        <h1 className="text-5xl text-center animate-bounce text-blue-400">
+                            <a href="https://github.com/jahidulislamjahid" target='new'>
+                            <i class="fa fa-paper-plane hover:translate-x-40" aria-hidden="false"></i>
+                            </a>
+                        
+                        </h1>
+
                     </div>
                 </div>
             </div>

@@ -57,4 +57,10 @@ export default {
     img: process.env.PUBLIC_URL + '/assets/jahid-bg.png',
 
   },
+  git:{
+    title: 'More Projects',
+    desc: 'For more projects, please visit my github profile',
+    link: '',
+    img: process.env.PUBLIC_URL + '/assets/more.png',
+  }
 };
