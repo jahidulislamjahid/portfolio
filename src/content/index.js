@@ -8,6 +8,7 @@ export default {
   },
   header: {
     img: '/assets/portrait1x1.png',
+    imgPlaceholder: '/assets/blur.png',
     text: ['Hi!', "I'm jahidul islam.", 'A '],
     typical: [
       'web designer.',

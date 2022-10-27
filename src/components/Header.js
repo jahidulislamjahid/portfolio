@@ -5,6 +5,7 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
 import content from '../content';
 import useStartAnimation from '../hook/useStartAnimation';
 import { Link as ScrollLink } from 'react-scroll';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export default function Header() {
   const transition = (duration) =>
@@ -21,12 +22,13 @@ export default function Header() {
     >
       <div className="flex flex-col items-center justify-center md:flex-row-reverse md:w-10/12 md:justify-between">
         <div className="w-full md:w-2/5 mt-10 ">
-          <img
+          <LazyLoadImage
             src={content.header.img}
             alt="profile"
-            className={` w-full bg-gray-900 mx-auto rounded-full my-10`}
+            className={` w-full bg-blue-500 mx-auto rounded-full my-10`}
             effect="blur"
             placeholderSrc={content.header.imgPlaceholder}
+            //loading="lazy"
           />
         </div>
 
