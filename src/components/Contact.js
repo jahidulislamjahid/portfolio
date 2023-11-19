@@ -13,15 +13,15 @@ export default function Contact() {
     emailjs.sendForm('service_ajf7q2h', 'template_wd91gej', e.target, 'user_HRoNB0POq01uSz2iMRTDq')
       .then((result) => {
         console.log(result.text);
-        toast.success("Thanks! I'll contact you soon.",{
-          position:"bottom-center",
+        toast.success("Thanks! I'll contact you soon.", {
+          position: "bottom-center",
           duration: 5000,
         });
       }, (error) => {
         console.log(error.text);
       });
     e.target.reset();
-    
+
   };
   const animated = useWindowPosition('header', 0.6, 4);
   return (
@@ -53,7 +53,7 @@ export default function Contact() {
             </div>
 
             <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium p-2 rounded-lg text-sm w-full sm:w-auto px-5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" >Submit</button>
-            <Toaster/>
+            <Toaster />
           </form>
         </div>
         <div className="font-dosis w-4/5 md:w-2/5 mt-5 transtion duration-2000">
@@ -75,8 +75,8 @@ export default function Contact() {
           >
             <a className="text-white text-3xl mr-3" target="_new" href="https://www.facebook.com/zahidul.islam.10420"><i class="fab fa-facebook"> </i> </a>
             <a className="text-white text-3xl mr-3" target="_new" href="https://github.com/jahidulislamjahid"><i class="fab fa-github"> </i> </a>
-            <a className="text-white text-3xl mr-3" target="_new" href="https://www.linkedin.com/in/md-jahidul-islam-076a8b216/"><i class="fab fa-linkedin"></i> </a>
-            <a className="text-white text-3xl mr-3 mb-3" target="_new" href="https://twitter.com/Zahidul15053004"><i class="fab fa-twitter"></i> </a>
+            <a className="text-white text-3xl mr-3" target="_new" href="https://www.linkedin.com/in/jahid-ul/"><i class="fab fa-linkedin"></i> </a>
+            <a className="text-white text-3xl mr-3 mb-3" target="_new" href="https://wa.me/+8801515200419"><i class="fab fa-whatsapp"></i></a>
           </div>
         </div>
       </div>

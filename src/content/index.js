@@ -48,7 +48,7 @@ export default {
         alt: 'mongodb',
       },
     ],
-    desc: `I have skill on HTML5, CSS3, Bootstrap, Tailwindcss, Metarializecss, Nodejs, React, Express, MOngodb, Photoshop, Illustrator, Gimp, Inkscape, affinity photo & Designer, Adobe Xd, MS Office and Figma`,
+    desc: `I have skills on HTML5, CSS3, Bootstrap, Tailwindcss, Metarializecss, SASS, React.js, Next.js, Redux, Node.js, Express.js, Jira, Trello, Socket.io, WebRTC, Adobe XD, and Figma`,
   },
   contact: {
     title: 'Ping Me!',

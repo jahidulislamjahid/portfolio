@@ -39,6 +39,41 @@ const Works = () => {
                     </div>
                 </div>
             </div>
+            <div className=" w-full items-center dark:bg-gray-900 py-12 px-6 flex justify-center ">
+                <div>
+                    <div className="max-w-xs  h-80 flex flex-col justify-between bg-white dark:bg-gray-800 rounded-lg border border-gray-400 mb-6 py-5 px-4 shadow-lg">
+                        <div className="w-50 h-auto">
+                            <Carousel autoplay={true} wrapAround={true}
+                                renderCenterLeftControls={({ previousSlide }) => (
+                                    null
+                                )}
+                                renderCenterRightControls={({ nextSlide }) => (
+                                    null
+                                )}
+                            >
+                                <img src="https://i.ibb.co/PwnbJny/Tele-Tale-Home1.png" alt="time2" border="0" />
+                                <img src="https://i.ibb.co/9yPFpZV/Teletale-Product1.png" alt="time0" border="0" />
+                                <img src="https://i.ibb.co/vQq0BG4/Teletale-Register.png" alt="time1" border="0" />
+                            </Carousel>
+                        </div>
+                        <div>
+                            <h4 className="text-gray-800 dark:text-gray-100 font-bold mb-3">Teletale</h4>
+                            <p className="text-gray-800 dark:text-gray-100 text-sm">Teletale  a web-app to promote custom designed phones.this is a full stack web-app using react, Tailwindcss, nodejs, express & mongoDb.<br />This is a demo project.</p>
+                        </div>
+                        <div>
+                            <div className="flex items-center justify-between text-gray-800">
+                                <p className="text-sm dark:text-gray-400 font-extrabold text-lg tracking-wider">
+                                    <i class="fab fa-react"></i>
+                                    <i class="fab fa-node-js"></i>
+                                    <i class="fab fa-css3-alt"></i>
+                                    <i class="fab fa-envira"></i>
+                                </p>
+                                <button className=" bg-blue-400 rounded px-5 text-white font-bold"><a href="https://teletale-7c144.web.app/" target="_new">visit</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div className=" w-full dark:bg-gray-900 py-12 px-6 flex justify-center items-center ">
                 <div>
                     <div className="max-w-xs  h-80 flex flex-col justify-between bg-white dark:bg-gray-800 rounded-lg border border-gray-400 mb-6 py-5 px-4 shadow-lg">
@@ -108,40 +143,7 @@ const Works = () => {
                     </div>
                 </div>
             </div>
-            <div className=" w-full items-center dark:bg-gray-900 py-12 px-6 flex justify-center ">
-                <div>
-                    <div className="max-w-xs  h-80 flex flex-col justify-between bg-white dark:bg-gray-800 rounded-lg border border-gray-400 mb-6 py-5 px-4 shadow-lg">
-                        <div className="w-50 h-auto">
-                            <Carousel autoplay={true} wrapAround={true}
-                                renderCenterLeftControls={({ previousSlide }) => (
-                                    null
-                                )}
-                                renderCenterRightControls={({ nextSlide }) => (
-                                    null
-                                )}
-                            >
-                                <img src="https://i.ibb.co/4TvSQnM/honda2.png" alt="honda2" border="0" />
-                                <img src="https://i.ibb.co/7Nfc4zc/honda1.png" alt="honda1" border="0" />
-                                <img src="https://i.ibb.co/hg8cspk/honda0.png" alt="honda0" border="0" />
-                            </Carousel>
-                        </div>
-                        <div>
-                            <h4 className="text-gray-800 dark:text-gray-100 font-bold mb-3">American Honda</h4>
-                            <p className="text-gray-800 dark:text-gray-100 text-sm">American Honda a website to promote different Types of Bikes from Honda.this is a  website built using Html5,Css3.<br />This is a demo project.</p>
-                        </div>
-                        <div>
-                            <div className="flex items-center justify-between text-gray-800">
-                                <p className="text-sm dark:text-gray-400 font-extrabold text-lg tracking-wider">
-                                    <i class="fab fa-html5"></i>
-                                    <i class="fab fa-node-js"></i>
-                                    <i class="fab fa-css3-alt"></i>
-                                </p>
-                                <button className=" bg-blue-400 rounded px-5 text-white font-bold"><a href="https://honda-bike-web.netlify.app/" target="_new">visit</a></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
             <div className=" w-full dark:bg-gray-900 py-12 px-6 flex justify-center items-center ">
                 <div>
                     <div className="max-w-xs  h-80 flex flex-col justify-between bg-white dark:bg-gray-800 rounded-lg border border-gray-400 mb-6 py-5 px-4 shadow-lg">
